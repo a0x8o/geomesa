@@ -11,12 +11,16 @@ package org.locationtech.geomesa.index.filters
 import java.util.Date
 
 import com.typesafe.scalalogging.LazyLogging
+import org.geotools.feature.simple.SimpleFeatureTypeBuilder
 import org.locationtech.geomesa.features.SerializationOption.SerializationOptions
 import org.locationtech.geomesa.features.kryo.KryoBufferSimpleFeature
 import org.locationtech.geomesa.index.api.GeoMesaFeatureIndex
 import org.locationtech.geomesa.index.iterators.IteratorCache
 import org.locationtech.geomesa.utils.conf.GeoMesaSystemProperties.SystemProperty
+import org.locationtech.geomesa.utils.geotools.RichAttributeDescriptors.RichAttributeDescriptor
+import org.locationtech.geomesa.utils.geotools.RichSimpleFeatureType.RichSimpleFeatureType
 import org.locationtech.geomesa.utils.geotools.SimpleFeatureTypes
+import org.opengis.feature.`type`.AttributeDescriptor
 import org.opengis.feature.simple.SimpleFeatureType
 
 import scala.util.control.NonFatal
@@ -27,24 +31,36 @@ import scala.util.control.NonFatal
 trait DtgAgeOffFilter extends AgeOffFilter with LazyLogging {
 
   protected var sft: SimpleFeatureType = _
+  protected var indexSft: SimpleFeatureType = _
   protected var index: GeoMesaFeatureIndex[_, _] = _
 
   protected var reusableSf: KryoBufferSimpleFeature = _
   protected var dtgIndex: Int = -1
 
   override def init(options: Map[String, String]): Unit = {
-    import DtgAgeOffFilter.Configuration.{DtgOpt, IndexOpt, SftOpt}
+    import DtgAgeOffFilter.Configuration.{DtgOpt, IndexOpt, SftOpt, IndexSftOpt}
 
     super.init(options)
 
     val spec = options(SftOpt)
+    val indexSpec = options(IndexSftOpt)
     sft = IteratorCache.sft(spec)
+    indexSft = IteratorCache.sft(indexSpec)
     index = IteratorCache.index(sft, spec, options(IndexOpt))
 
     // noinspection ScalaDeprecation
     val withId = if (index.serializedWithId) { SerializationOptions.none } else { SerializationOptions.withoutId }
     reusableSf = IteratorCache.serializer(spec, withId).getReusableFeature
     dtgIndex = options(DtgOpt).toInt // note: keep this last, for back-compatibility with DtgAgeOffIterator
+
+    //logger.error(s"Configured with indexSft: $indexSft and sft $sft")
+    if (!indexSft.equals(sft)) {
+      val joinIndex = indexSft.indexOf(sft.getDescriptor(dtgIndex).getLocalName)
+      if (dtgIndex != joinIndex) {
+        logger.error(s"Switching index for join index from $dtgIndex to $joinIndex")
+        dtgIndex = joinIndex
+      }
+    }
   }
 
   override def accept(row: Array[Byte],
@@ -71,6 +87,7 @@ object DtgAgeOffFilter {
   // configuration keys
   object Configuration {
     val SftOpt   = "sft"
+    val IndexSftOpt = "indexsft"
     val IndexOpt = "index"
     val DtgOpt   = "dtg"
   }
@@ -100,10 +117,52 @@ object DtgAgeOffFilter {
         i
     }
 
+    val sftToRegister = {
+      if (index.name.contains("join")) {
+        buildIndexSft(sft) //IndexValueEncoder
+      } else {
+        sft
+      }
+    }
+    println(s"\t**** For index ${index.name} using $sftToRegister")
+
     AgeOffFilter.configure(sft, expiry) ++ Map (
       Configuration.SftOpt   -> SimpleFeatureTypes.encodeType(sft),
       Configuration.IndexOpt -> index.identifier,
-      Configuration.DtgOpt   -> dtgIndex.toString
+      Configuration.DtgOpt   -> dtgIndex.toString,
+      Configuration.IndexSftOpt -> SimpleFeatureTypes.encodeType(sftToRegister)
     )
+  }
+
+  // From IndexValueEncoder
+  private def buildIndexSft(sft: SimpleFeatureType): SimpleFeatureType = {
+    val builder = new SimpleFeatureTypeBuilder()
+    builder.setNamespaceURI(null: String)
+    builder.setName(sft.getTypeName + "--index")
+    import scala.collection.JavaConversions._
+    builder.setAttributes(getIndexValueAttributes(sft))
+    if (sft.getGeometryDescriptor != null) {
+      builder.setDefaultGeometry(sft.getGeometryDescriptor.getLocalName)
+    }
+    builder.setCRS(sft.getCoordinateReferenceSystem)
+    val indexSft = builder.buildFeatureType()
+    indexSft.getUserData.putAll(sft.getUserData)
+    indexSft
+  }
+
+  // From IndexValueEncoder
+  private def getIndexValueAttributes(sft: SimpleFeatureType): Seq[AttributeDescriptor] = {
+    val geom = sft.getGeometryDescriptor
+    val dtg = sft.getDtgField
+    val attributes = scala.collection.mutable.Buffer.empty[AttributeDescriptor]
+    var i = 0
+    while (i < sft.getAttributeCount) {
+      val ad = sft.getDescriptor(i)
+      if (ad == geom || dtg.contains(ad.getLocalName) || ad.isIndexValue()) {
+        attributes.append(ad)
+      }
+      i += 1
+    }
+    attributes
   }
 }

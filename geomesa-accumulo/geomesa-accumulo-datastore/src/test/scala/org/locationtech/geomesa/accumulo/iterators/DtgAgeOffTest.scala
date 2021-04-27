@@ -9,9 +9,11 @@
 package org.locationtech.geomesa.accumulo.iterators
 
 import java.time.{ZoneOffset, ZonedDateTime}
+import java.util
 import java.util.{Collections, Date}
 
 import org.apache.accumulo.core.client.Connector
+import org.apache.accumulo.core.iterators.IteratorUtil
 import org.apache.accumulo.core.security.Authorizations
 import org.geotools.data.{DataStore, DataStoreFinder}
 import org.junit.runner.RunWith
@@ -36,13 +38,13 @@ class DtgAgeOffTest extends Specification with TestWithFeatureType {
 
   sequential
 
-  override val spec = "name:String,foo:String:index=join,dtg:Date,geom:Point:srid=4326,bar:String:index=join"
+  override val spec = "l1:Long,l2:Long,l3:Long,l4:Long,l5:long,name:String,foo:String:index=join,dtg:Date,geom:Point:srid=4326,bar:String:index=join"
 
   val today: ZonedDateTime = ZonedDateTime.now(ZoneOffset.UTC)
 
   def add(ids: Range, ident: String, vis: String): Unit = {
     val features = ids.map { i =>
-      ScalaSimpleFeature.create(sft, i.toString, "foo", s"${ident}_$i", Date.from(today.minusDays(i).toInstant), s"POINT($i $i)", "bar")
+      ScalaSimpleFeature.create(sft,  i.toString, 1L, 2L, 3L, 4L, 5L, "foo", s"${ident}_$i", Date.from(today.minusDays(i).toInstant), s"POINT($i $i)", "bar")
     }
     features.foreach(SecurityUtils.setFeatureVisibility(_, vis))
     addFeatures(features)
@@ -75,15 +77,23 @@ class DtgAgeOffTest extends Specification with TestWithFeatureType {
       query(adminDs) must haveSize(20)
       query(sysDs) must haveSize(30)
 
+      scanDirect(30)
+
       configureAgeOff(11)
+      dumpTableConfig()
+
       query(userDs) must haveSize(10)
       query(adminDs) must haveSize(20)
       query(sysDs) must haveSize(30)
+
+      scanDirect(30)
 
       configureAgeOff(10)
       query(userDs) must haveSize(9)
       query(adminDs) must haveSize(18)
       query(sysDs) must haveSize(27)
+
+      scanDirect(27)
 
       configureAgeOff(5)
       query(userDs) must haveSize(4)
@@ -99,7 +109,21 @@ class DtgAgeOffTest extends Specification with TestWithFeatureType {
 
       dumpTables("after age off all")
 
+      //dumpTableConfig()
       ok
+    }
+  }
+
+  private def scanDirect(expected: Int) = {
+    val conn: Connector = MiniCluster.cluster.getConnector(MiniCluster.Users.root.name, MiniCluster.Users.root.password)
+    conn.tableOperations().list().asScala.filter(t => t.contains("DtgAgeOffTest_DtgAgeOffTest")).forall { tableName =>
+      val count = conn.createScanner(tableName, MiniCluster.Users.root.auths).asScala.size
+
+      if (count != expected) {
+        println("here")
+      }
+      count mustEqual expected
+//      ok
     }
   }
 
@@ -115,6 +139,22 @@ class DtgAgeOffTest extends Specification with TestWithFeatureType {
 //      conn.createScanner(tableName, MiniCluster.Users.root.auths).asScala.foreach { e =>
 //        println(s"\tKey: ${e.getKey}, value: ${e.getValue}")
 //      }
+    }
+  }
+
+  private def dumpTableConfig(mesg: String = ""): Unit = {
+    val conn: Connector = MiniCluster.cluster.getConnector(MiniCluster.Users.root.name, MiniCluster.Users.root.password)
+    conn.getInstance()
+    val to = conn.tableOperations()
+
+    println("\n")
+    to.list().asScala.filter(t => t.contains("DtgAgeOffTest_DtgAgeOffTest")).foreach { tableName =>
+      to.listIterators(tableName).asScala.foreach { case (iterator, scopes) =>
+        scopes.asScala.foreach { scope =>
+          val is = to.getIteratorSetting(tableName, iterator, scope)
+          println(s"Table: $tableName Scope: $scope Iterator: $iterator IS: $is")
+        }
+      }
     }
   }
 }
