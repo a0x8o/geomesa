@@ -36,8 +36,11 @@ __ https://github.com/locationtech/geomesa/releases
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f71fa3c0e1 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> cdb4102515 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 Download and extract it somewhere convenient:
 =======
 .. note::
@@ -47,6 +50,7 @@ Download and extract it somewhere convenient:
 
 Extract it somewhere convenient:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9bdd406e3 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
 Download and extract it somewhere convenient:
@@ -54,6 +58,9 @@ Download and extract it somewhere convenient:
 =======
 >>>>>>> b9bdd406e (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> f71fa3c0e1 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> b9bdd406e (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+>>>>>>> cdb4102515 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 
 .. code-block:: bash
 
@@ -62,8 +69,11 @@ Download and extract it somewhere convenient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f71fa3c0e1 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> cdb4102515 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
     $ tar xvf geomesa-kafka_${VERSION}-bin.tar.gz
     $ cd geomesa-kafka_${VERSION}
 =======
@@ -71,6 +81,7 @@ Download and extract it somewhere convenient:
     $ cd geomesa-kafka_${VERSION}
     $ ls
     bin/  conf/  dist/  docs/  examples/  lib/  LICENSE.txt
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b9bdd406e3 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
@@ -80,6 +91,9 @@ Download and extract it somewhere convenient:
 =======
 >>>>>>> b9bdd406e (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> f71fa3c0e1 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> b9bdd406e (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+>>>>>>> cdb4102515 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 
 .. _kafka_install_source:
 
