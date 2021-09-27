@@ -104,6 +104,7 @@ Compatibility Matrix
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Version 5.2.0 Upgrade Guide
 +++++++++++++++++++++++++++
 
@@ -161,6 +162,9 @@ The following dependencies have been upgraded:
 =======
 <<<<<<< HEAD
 >>>>>>> ca80df73a01 (Add note on NiFi scala version to upgrade guide)
+=======
+<<<<<<< HEAD
+>>>>>>> 4be3409a606 (Add note on NiFi scala version to upgrade guide)
 Version 5.1.0 Upgrade Guide
 +++++++++++++++++++++++++++
 
@@ -247,6 +251,9 @@ The package for configuring audit logging has changed from ``org.locationtech.ge
 =======
 <<<<<<< HEAD
 >>>>>>> d379d117bdf (Add note on NiFi scala version to upgrade guide)
+=======
+<<<<<<< HEAD
+>>>>>>> 297bd468265 (Add note on NiFi scala version to upgrade guide)
 Version 5.0.0 Upgrade Guide
 =======
 =======
@@ -278,6 +285,8 @@ Version 5.0.0 Upgrade Guide
 >>>>>>> 71329efd07f (GEOMESA-3254 Add Bloop build support)
 =======
 >>>>>>> 25eb151d8cd (Add note on NiFi scala version to upgrade guide)
+=======
+>>>>>>> c71bcc193a2 (Add note on NiFi scala version to upgrade guide)
 <<<<<<< HEAD
 =======
 >>>>>>> 3a8f16e50e (Add note on NiFi scala version to upgrade guide)
@@ -308,7 +317,12 @@ Version 5.0.0 Upgrade Guide
 =======
 =======
 >>>>>>> d381f46e90 (Add note on NiFi scala version to upgrade guide)
+<<<<<<< HEAD
 >>>>>>> 25eb151d8cd (Add note on NiFi scala version to upgrade guide)
+=======
+=======
+>>>>>>> 6eee7c559a (Add note on NiFi scala version to upgrade guide)
+>>>>>>> c71bcc193a2 (Add note on NiFi scala version to upgrade guide)
 Version 4.1.0 Upgrade Guide
 >>>>>>> 00f021f6c00 (Add note on NiFi scala version to upgrade guide)
 +++++++++++++++++++++++++++
@@ -927,6 +941,7 @@ Dependency Updates
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1532f2313 (GEOMESA-3254 Add Bloop build support)
 =======
@@ -987,6 +1002,10 @@ Dependency Updates
 >>>>>>> 5a4c24e020 (GEOMESA-3254 Add Bloop build support)
 =======
 >>>>>>> d381f46e90 (Add note on NiFi scala version to upgrade guide)
+=======
+=======
+>>>>>>> e6dd9b5b1d (Add note on NiFi scala version to upgrade guide)
+>>>>>>> 6eee7c559a (Add note on NiFi scala version to upgrade guide)
 Version 3.3.0 Upgrade Guide
 +++++++++++++++++++++++++++
 
