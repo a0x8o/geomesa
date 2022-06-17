@@ -10,6 +10,11 @@ package org.locationtech.geomesa.gt.partition.postgis
 
 import com.typesafe.scalalogging.LazyLogging
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import org.geotools.data._
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,16 +313,22 @@ import org.geotools.data._
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 4b7c48b509 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 =======
 >>>>>>> da609e20da (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 =======
 >>>>>>> 4b7c48b509 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 import org.geotools.feature.simple.SimpleFeatureBuilder
 =======
 import org.geotools.data.postgis.PostGISPSDialect
@@ -331,6 +342,7 @@ import org.geotools.filter.identity.FeatureIdImpl
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 import org.geotools.feature.simple.SimpleFeatureBuilder
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
@@ -434,9 +446,13 @@ import org.geotools.feature.simple.SimpleFeatureBuilder
 =======
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
 >>>>>>> locationtech-main
 =======
 import org.geotools.data.postgis.PostGISPSDialect
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import org.geotools.data.{DataStoreFinder, DefaultTransaction, Query, Transaction}
@@ -452,6 +468,9 @@ import org.geotools.data.{DataStoreFinder, DefaultTransaction, Query, Transactio
 import org.geotools.data._
 import org.geotools.data.postgis.PostGISPSDialect
 >>>>>>> 58d14a257 (GEOMESA-3254 Add Bloop build support)
+=======
+import org.geotools.data.{DataStoreFinder, DefaultTransaction, Query, Transaction}
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 import org.geotools.filter.identity.FeatureIdImpl
 >>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> 47f8de1bb (GEOMESA-3215 Postgis - support List-type attributes)
@@ -674,6 +693,7 @@ import org.testcontainers.utility.DockerImageName
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -691,6 +711,10 @@ import org.testcontainers.utility.DockerImageName
 =======
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
@@ -698,6 +722,9 @@ import org.testcontainers.utility.DockerImageName
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 05a1868e90 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
@@ -716,6 +743,7 @@ import org.testcontainers.utility.DockerImageName
 =======
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 >>>>>>> fae2cdacf2 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
@@ -749,6 +777,10 @@ import org.testcontainers.utility.DockerImageName
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 import java.sql.Connection
 import java.util.concurrent.CopyOnWriteArrayList
 import java.util.logging.{Handler, Level, LogRecord}
@@ -845,11 +877,17 @@ import java.util.Collections
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import java.util.Collections
 >>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+=======
+=======
+import java.util.Collections
+>>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 import scala.annotation.tailrec
 >>>>>>> f639b39b8 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
@@ -994,6 +1032,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 
   val hours = 1
   val spec =
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1175,6 +1214,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> e9a70d8c07 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 =======
 >>>>>>> f8a4dfe0b3 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
@@ -1213,6 +1253,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> e9a70d8c07 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 >>>>>>> 13eb6ce8a8 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
     "name:List[String],props:String:json=true,age:Int,dtg:Date,*geom:Point:srid=4326;" +
 =======
     "name:List[String],age:Int,dtg:Date,*geom:Point:srid=4326;" +
@@ -1381,6 +1423,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -1393,6 +1436,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
 >>>>>>> e7dfbc3fc1 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> e243573ba4 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
     "name:List[String],props:String:json=true,age:Int,dtg:Date,*geom:Point:srid=4326;" +
@@ -1419,10 +1466,14 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> f5a0fbbc4a (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
 >>>>>>> 1913bc4c2c (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1441,6 +1492,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
 >>>>>>> e7dfbc3fc1 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> locationtech-main
 =======
     "name:List[String],age:Int,dtg:Date,*geom:Point:srid=4326;" +
@@ -1451,10 +1506,13 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d0679fff9 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
 >>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 =======
@@ -1875,7 +1933,13 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> e9a70d8c07 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+<<<<<<< HEAD
 >>>>>>> 13eb6ce8a8 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+=======
+=======
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
         Seq(
           s"pg.partitions.interval.hours=$hours",
           "pg.partitions.cron.minute=0"/*,
@@ -1900,6 +1964,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18777a94f (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
@@ -1908,6 +1973,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> ec585da266 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -1920,10 +1987,14 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 =======
 >>>>>>> d18777a94f (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
@@ -1942,11 +2013,14 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> ec585da266 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
   val schema = "public"
 =======
   val methods =
     Methods(
       create = false,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1971,6 +2045,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> ec585da266 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> f586fec5a3 (GEOMESA-3254 Add Bloop build support)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
       upgrade = false,
 =======
       recreate = false,
@@ -1979,6 +2057,9 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
       upgrade = false,
 >>>>>>> fa60953a42 (GEOMESA-3254 Add Bloop build support)
@@ -1992,6 +2073,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 7564665969 (GEOMESA-3254 Add Bloop build support)
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 =======
 =======
       upgrade = false,
@@ -2017,6 +2099,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
       upgrade = false,
 >>>>>>> 7564665969 (GEOMESA-3254 Add Bloop build support)
 >>>>>>> f586fec5a3 (GEOMESA-3254 Add Bloop build support)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
       write = false,
       update = false,
       query = false,
@@ -2029,12 +2113,17 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> ec585da266 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> ee1d5f2071 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
   val schema = "public"
@@ -2044,8 +2133,11 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
 <<<<<<< HEAD
@@ -2065,6 +2157,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 =======
 >>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 <<<<<<< HEAD
@@ -2101,6 +2194,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 
   lazy val sft = SimpleFeatureTypes.createType(s"test", spec)
 
@@ -3171,6 +3268,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (methods.create) {
           if (ds.getTypeNames.contains(sft.getTypeName)) {
             logger.warn("Schema already exists, skipping create")
@@ -3347,6 +3445,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> fae2cdacf2 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -3392,6 +3491,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> c738f63bd9 (GEOMESA-3254 Add Bloop build support)
 =======
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
           val schema = Try(ds.getSchema(sft.getTypeName)).getOrElse(null)
           schema must not(beNull)
           schema.getUserData.asScala must containAllOf(sft.getUserData.asScala.toSeq)
@@ -3483,6 +3586,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 =======
 >>>>>>> b8e1d54867 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
@@ -3525,6 +3629,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 >>>>>>> fae2cdacf2 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 <<<<<<< HEAD
@@ -3605,6 +3710,9 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 >>>>>>> fae2cdacf2 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
         val schema = Try(ds.getSchema(sft.getTypeName)).getOrElse(null)
         schema must not(beNull)
         schema.getUserData.asScala must containAllOf(sft.getUserData.asScala.toSeq)
@@ -5585,10 +5693,17 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+          val schema = Try(ds.getSchema(sft.getTypeName)).getOrElse(null)
+          schema must not(beNull)
+          schema.getUserData.asScala must containAllOf(sft.getUserData.asScala.toSeq)
+          logger.debug(s"Schema: ${SimpleFeatureTypes.encodeType(schema)}")
+>>>>>>> 47f8de1bb (GEOMESA-3215 Postgis - support List-type attributes)
+=======
         val userData = Try(ds.getSchema(sft.getTypeName)).map(_.getUserData.asScala).getOrElse(null)
         userData must not(beNull)
         userData must containAllOf(sft.getUserData.asScala.toSeq)
 >>>>>>> f639b39b8 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 203dda21b (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 =======
@@ -5652,14 +5767,40 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
         userData must containAllOf(sft.getUserData.asScala.toSeq)
 >>>>>>> f639b39b8 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
 >>>>>>> a91558bd4 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+<<<<<<< HEAD
 >>>>>>> ce17eba7ba (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+<<<<<<< HEAD
 >>>>>>> cb94395705 (GEOMESA-3208 Postgis - Fix camel-case feature type names)
+=======
+=======
+=======
+=======
+        val schema = Try(ds.getSchema(sft.getTypeName)).getOrElse(null)
+        schema must not(beNull)
+        schema.getUserData.asScala must containAllOf(sft.getUserData.asScala.toSeq)
+        logger.info(s"Schema: ${SimpleFeatureTypes.encodeType(schema)}")
+>>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 47f8de1bb (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 
           // write some data
           WithClose(new DefaultTransaction()) { tx =>
             WithClose(ds.getFeatureWriterAppend(sft.getTypeName, tx)) { writer =>
+<<<<<<< HEAD
               features.foreach { feature =>
                 FeatureUtils.write(writer, feature, useProvidedFid = true)
+=======
+              (1 to 10).foreach { i =>
+                val next = writer.next()
+                next.setAttribute("name", Collections.singletonList(s"name$i"))
+                next.setAttribute("age", i)
+                next.setAttribute("dtg", new java.util.Date(now - (i * 20 * 60 * 1000))) // 20 minutes
+                next.setAttribute("geom", WKTUtils.read(s"POINT(0 $i)"))
+                next.getUserData.put(Hints.USE_PROVIDED_FID, java.lang.Boolean.TRUE)
+                next.getIdentifier.asInstanceOf[FeatureIdImpl].setID(s"fid$i")
+                writer.write()
+>>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
               }
             }
             tx.commit()
@@ -5702,6 +5843,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5783,6 +5925,30 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
           WithClose(ds.getFeatureReader(new Query(sft.getTypeName), Transaction.AUTO_COMMIT)) { reader =>
             reader.hasNext must beFalse
 >>>>>>> 794a6f66c3 (GEOMESA-3261 Postgis - Fix age-off for non-alpha feature type names)
+=======
+          WithClose(ds.getFeatureReader(new Query(sft.getTypeName), Transaction.AUTO_COMMIT)) { reader =>
+            reader.hasNext must beFalse
+=======
+        if (methods.query) {
+          WithClose(ds.getFeatureReader(new Query(sft.getTypeName), Transaction.AUTO_COMMIT)) { reader =>
+            while (reader.hasNext) {
+              logger.info(reader.next.toString)
+            }
+          }
+        }
+
+        if (methods.delete) {
+          (1 to 10).foreach { i =>
+            WithClose(ds.getFeatureWriter(sft.getTypeName, ECQL.toFilter(s"IN('fid$i')"), Transaction.AUTO_COMMIT)) { writer =>
+              if (writer.hasNext) {
+                writer.next()
+                writer.remove()
+              } else {
+                logger.warn(s"No entry found for delete fid$i")
+              }
+            }
+>>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
           }
         }
 <<<<<<< HEAD
@@ -7316,6 +7482,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a928f2f739 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 <<<<<<< HEAD
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
@@ -7324,6 +7491,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 =======
 =======
+=======
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
   def compFromDb(sf: SimpleFeature): Seq[Any] = {
     Seq(sf.getID) ++ sf.getAttributes.asScala.map {
         // even though Timestamp extends Date, equals comparison doesn't work between the 2
@@ -7346,6 +7515,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
         rs.getInt(1)
       }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7399,6 +7569,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -7411,6 +7583,14 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 =======
+=======
+<<<<<<< HEAD
+  }
+=======
+<<<<<<< HEAD
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+=======
   case class Methods(
       create: Boolean,
 <<<<<<< HEAD
@@ -7418,11 +7598,17 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
       recreate: Boolean,
 >>>>>>> ee1d5f207 (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+  case class Methods(
+      create: Boolean,
+      recreate: Boolean,
+>>>>>>> 47f8de1bb (GEOMESA-3215 Postgis - support List-type attributes)
       write: Boolean,
       update: Boolean,
       query: Boolean,
       delete: Boolean,
       remove: Boolean
+<<<<<<< HEAD
 <<<<<<< HEAD
     ) {
     def any: Boolean = create || upgrade || write || update || query || delete || remove
@@ -7911,6 +8097,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -7919,6 +8106,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> b298e017f1 (GEOMESA-3254 Add Bloop build support)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> cf1d94c7a8 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
     ) {
@@ -7952,6 +8143,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -7969,6 +8161,14 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> b298e017f1 (GEOMESA-3254 Add Bloop build support)
+=======
+=======
+=======
+>>>>>>> 63a045a753 (GEOMESA-3254 Add Bloop build support)
+=======
+=======
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> locationtech-main
 =======
     )
@@ -7979,10 +8179,13 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a4c24e020 (GEOMESA-3254 Add Bloop build support)
 =======
 >>>>>>> b298e017f1 (GEOMESA-3254 Add Bloop build support)
+=======
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 =======
@@ -8083,6 +8286,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 >>>>>>> 4b7c48b509 (GEOMESA-3215 Postgis - support List-type attributes)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
@@ -8227,4 +8431,9 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 >>>>>>> 34836e5f4e (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+=======
+>>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
+>>>>>>> 38e39baec8 (GEOMESA-3215 Postgis - support List-type attributes)
 }
