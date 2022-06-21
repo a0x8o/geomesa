@@ -700,6 +700,11 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    "name:List[String],props:String:json=true,age:Int,dtg:Date,*geom:Point:srid=4326;" +
+=======
+>>>>>>> f5a0fbbc4a (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +944,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69a6e5986e (GEOMESA-3215 Postgis - support List-type attributes)
 =======
@@ -947,6 +953,8 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 9d3260f1dc (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+>>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 >>>>>>> e243573ba4 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
     "name:List[String],props:String:json=true,age:Int,dtg:Date,*geom:Point:srid=4326;" +
@@ -972,6 +980,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5a0fbbc4a (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 =======
@@ -987,6 +996,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 9d3260f1dc (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+=======
+>>>>>>> f5a0fbbc4a (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+>>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 >>>>>>> locationtech-main
 =======
     "name:List[String],age:Int,dtg:Date,*geom:Point:srid=4326;" +
@@ -996,12 +1009,16 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d0679fff9 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+=======
+>>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 =======
 =======
 >>>>>>> eb44b0e44 (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1263,6 +1280,9 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> afb207dc68 (GEOMESA-3215 Postgis - support List-type attributes)
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+>>>>>>> f5a0fbbc4a (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
+>>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
         Seq(
           s"pg.partitions.interval.hours=$hours",
           "pg.partitions.cron.minute=0"/*,
@@ -3534,9 +3554,13 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
                 next.setAttribute("name", Collections.singletonList(s"name$i"))
                 next.setAttribute("age", i)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 next.setAttribute("props", s"""["name$i"]""")
 =======
 >>>>>>> 6bd2f89dcd (GEOMESA-3215 Postgis - support List-type attributes)
+=======
+                next.setAttribute("props", s"""["name$i"]""")
+>>>>>>> b4dbc3c8cf (GEOMESA-3217,GEOMESA-3216 Support Postgis json attributes, top-level arrays in json)
                 next.setAttribute("dtg", new java.util.Date(now - (i * 20 * 60 * 1000))) // 20 minutes
                 next.setAttribute("geom", WKTUtils.read(s"POINT(0 $i)"))
                 next.getUserData.put(Hints.USE_PROVIDED_FID, java.lang.Boolean.TRUE)
