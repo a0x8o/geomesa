@@ -140,6 +140,7 @@ __ https://github.com/locationtech/geomesa/releases
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b046434188 (GEOMESA-3176 Docs - fix download links in install instructions)
@@ -147,6 +148,8 @@ __ https://github.com/locationtech/geomesa/releases
 >>>>>>> 76908c410a (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
 >>>>>>> a788dfac03 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> da00c7bd68 (Merge branch 'feature/postgis-fixes')
 =======
 >>>>>>> 67b361c85 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> f302a54949 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
@@ -2277,6 +2280,7 @@ Download and extract it somewhere convenient:
 >>>>>>> b4320946b (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97ec7d864a (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
 =======
@@ -2758,11 +2762,17 @@ Download and extract it somewhere convenient:
 =======
 >>>>>>> b4320946b (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> a788dfac03 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+=======
+Download and extract it somewhere convenient:
+>>>>>>> 3be8d2a5a (Merge branch 'feature/postgis-fixes')
+>>>>>>> da00c7bd68 (Merge branch 'feature/postgis-fixes')
 
 .. code-block:: bash
 
     # download and unpackage the most recent distribution:
     $ wget "https://github.com/locationtech/geomesa/releases/download/geomesa-${TAG}/geomesa-kafka_${VERSION}-bin.tar.gz"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2869,6 +2879,8 @@ Download and extract it somewhere convenient:
 >>>>>>> 76908c410a (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
 >>>>>>> a788dfac03 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> da00c7bd68 (Merge branch 'feature/postgis-fixes')
 =======
 >>>>>>> 67b361c85 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> f302a54949 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
@@ -4693,6 +4705,7 @@ Download and extract it somewhere convenient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bdbced26d4 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 =======
 =======
@@ -4722,9 +4735,12 @@ Download and extract it somewhere convenient:
 =======
 >>>>>>> 1b25d7ddb (Merge branch 'feature/postgis-fixes')
 =======
+>>>>>>> da00c7bd68 (Merge branch 'feature/postgis-fixes')
+=======
     $ tar xvf geomesa-kafka_${VERSION}-bin.tar.gz
     $ cd geomesa-kafka_${VERSION}
 >>>>>>> 3be8d2a5a (Merge branch 'feature/postgis-fixes')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5444,6 +5460,8 @@ Download and extract it somewhere convenient:
 =======
 >>>>>>> b4320946b (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
 >>>>>>> a788dfac03 (GEOMESA-3061 Converters - support bytes in Avro top-level union types (#2762))
+=======
+>>>>>>> da00c7bd68 (Merge branch 'feature/postgis-fixes')
 
 .. _kafka_install_source:
 
