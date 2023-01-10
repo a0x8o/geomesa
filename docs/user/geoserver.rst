@@ -23,13 +23,27 @@ although this may occasionally cause errors as GeoServer does not follow semanti
 +-------------------+-------------------+
 | GeoMesa Version   | GeoServer Version |
 +===================+===================+
+<<<<<<< HEAD
 | 5.2.0             | 2.26.1            |
 +-------------------+-------------------+
+=======
+<<<<<<< HEAD
+>>>>>>> 3f4d58281db (Merge branch 'a0x8o' into stag0)
 | 5.1.0             | 2.26.0            |
 +-------------------+-------------------+
+=======
+<<<<<<< HEAD
+>>>>>>> 999a8bb50ef (GEOMESA-3254 Add Bloop build support)
 | 5.0.0             | 2.24.2            |
 +-------------------+-------------------+
 | 4.0.0             | 2.22.2            |
+=======
+<<<<<<< HEAD
+| 4.0.0 and later   | 2.22.2            |
+=======
+| 4.0.0 and later   | 2.22.0            |
+>>>>>>> 58d14a257e (GEOMESA-3254 Add Bloop build support)
+>>>>>>> 4a4bbd8ec03 (GEOMESA-3254 Add Bloop build support)
 +-------------------+-------------------+
 | 3.1.1 to 3.5.x    | 2.17.3            |
 +-------------------+-------------------+
