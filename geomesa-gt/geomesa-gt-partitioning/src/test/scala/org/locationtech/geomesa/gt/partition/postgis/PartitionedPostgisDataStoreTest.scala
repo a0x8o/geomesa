@@ -2221,6 +2221,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 843af3b23e (GEOMESA-3263 Docs for NiFi schema initialization)
 =======
@@ -2232,6 +2233,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 =======
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
+=======
+>>>>>>> 843af3b23e (GEOMESA-3263 Docs for NiFi schema initialization)
+>>>>>>> 35e84e3c2e (GEOMESA-3263 Docs for NiFi schema initialization)
+=======
     "Commit size" -> "20",
 >>>>>>> a928f2f739 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
@@ -2240,10 +2245,13 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18777a94f (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 >>>>>>> 320759d5d3 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+>>>>>>> 35e84e3c2e (GEOMESA-3263 Docs for NiFi schema initialization)
 =======
 =======
     "Commit size" -> "20",
@@ -2260,6 +2268,7 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> a928f2f739 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 >>>>>>> 6c49bcd685 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 843af3b23e (GEOMESA-3263 Docs for NiFi schema initialization)
 =======
@@ -2275,6 +2284,10 @@ class PartitionedPostgisDataStoreTest extends Specification with BeforeAfterAll 
 >>>>>>> 320759d5d3 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
 =======
 >>>>>>> 52579ffb37 (GEOMESA-3246 Upgrade Arrow to 11.0.0)
+=======
+=======
+>>>>>>> 843af3b23e (GEOMESA-3263 Docs for NiFi schema initialization)
+>>>>>>> 35e84e3c2e (GEOMESA-3263 Docs for NiFi schema initialization)
     "preparedStatements" -> "true"
   )
 
