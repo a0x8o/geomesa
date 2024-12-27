@@ -43,6 +43,9 @@ import org.locationtech.jts.geom.{LineString, Point}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -119,6 +122,10 @@ import org.opengis.feature.simple.SimpleFeature
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a4bbd8ec03 (GEOMESA-3254 Add Bloop build support)
+>>>>>>> locatelli-main
 =======
 >>>>>>> 4a4bbd8ec03 (GEOMESA-3254 Add Bloop build support)
 >>>>>>> locatelli-main

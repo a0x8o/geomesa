@@ -182,6 +182,7 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -242,6 +243,8 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 >>>>>>> locatelli-main
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -302,6 +305,9 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -403,6 +409,7 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -411,6 +418,8 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 <<<<<<< HEAD
 =======
 >>>>>>> ebd1587dc5 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -526,6 +535,9 @@ INSERT INTO "usage" VALUES('EPSG','9089','conversion','EPSG','4454','EPSG','2235
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -626,6 +638,7 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -635,6 +648,10 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
@@ -801,6 +818,7 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sensing Lambert Conformal Projection','Created by AUSLIG prior to incorporation into Geoscience Australia. See also GALCC (proj code 17362).','EPSG','9802','Lambert Conic Conformal (2SP)','EPSG','8821','Latitude of false origin',-27.0,'EPSG','9102','EPSG','8822','Longitude of false origin',132.0,'EPSG','9102','EPSG','8823','Latitude of 1st standard parallel',-18.0,'EPSG','9102','EPSG','8824','Latitude of 2nd standard parallel',-36.0,'EPSG','9102','EPSG','8826','Easting at false origin',0.0,'EPSG','9001','EPSG','8827','Northing at false origin',0.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,0);
 >>>>>>> e4a6fd6d75 (typo fixes)
@@ -808,6 +826,8 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -911,6 +931,7 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -949,6 +970,10 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -1101,6 +1126,9 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -1170,6 +1198,7 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sensing Lambert Conformal Projection','Created by AUSLIG prior to incorporation into Geoscience Australia. See also GALCC (proj  code 17362).','EPSG','9802','Lambert Conic Conformal (2SP)','EPSG','8821','Latitude of false origin',-27.0,'EPSG','9102','EPSG','8822','Longitude of false origin',132.0,'EPSG','9102','EPSG','8823','Latitude of 1st standard parallel',-18.0,'EPSG','9102','EPSG','8824','Latitude of 2nd standard parallel',-36.0,'EPSG','9102','EPSG','8826','Easting at false origin',0.0,'EPSG','9001','EPSG','8827','Northing at false origin',0.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,0);
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1280,6 +1309,8 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1353,9 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -1426,11 +1460,14 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -1529,11 +1566,14 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -1648,11 +1688,14 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -1751,6 +1794,7 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sensing Lambert Conformal Projection','Created by AUSLIG prior to incorporation into Geoscience Australia. See also GALCC (proj  code 17362).','EPSG','9802','Lambert Conic Conformal (2SP)','EPSG','8821','Latitude of false origin',-27.0,'EPSG','9102','EPSG','8822','Longitude of false origin',132.0,'EPSG','9102','EPSG','8823','Latitude of 1st standard parallel',-18.0,'EPSG','9102','EPSG','8824','Latitude of 2nd standard parallel',-36.0,'EPSG','9102','EPSG','8826','Easting at false origin',0.0,'EPSG','9001','EPSG','8827','Northing at false origin',0.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,0);
@@ -1760,6 +1804,8 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -1933,6 +1979,9 @@ INSERT INTO "conversion" VALUES('EPSG','4460','Australian Centre for Remote Sens
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -2189,6 +2238,7 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2249,6 +2299,8 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 >>>>>>> locatelli-main
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -2309,6 +2361,9 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -2410,6 +2465,7 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -2418,6 +2474,8 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 <<<<<<< HEAD
 =======
 >>>>>>> ebd1587dc5 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -2533,6 +2591,9 @@ INSERT INTO "usage" VALUES('EPSG','9301','conversion','EPSG','5219','EPSG','1079
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -2633,6 +2694,7 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -2642,6 +2704,10 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
@@ -2808,6 +2874,7 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Longitude is referenced to the Ferro meridian. Replaces Modified Krovak south-orientated projection (code 5219) for GIS purposes.','EPSG','1043','Krovak Modified (North Orientated)','EPSG','8811','Latitude of projection centre',49.3,'EPSG','9110','EPSG','8833','Longitude of origin',42.3,'EPSG','9110','EPSG','1036','Co-latitude of cone axis',30.1717303,'EPSG','9110','EPSG','8818','Latitude of pseudo standard parallel',78.3,'EPSG','9110','EPSG','8819','Scale factor on pseudo standard parallel',0.9999,'EPSG','9201','EPSG','8806','False easting',5000000.0,'EPSG','9001','EPSG','8807','False northing',5000000.0,'EPSG','9001',0);
 >>>>>>> e4a6fd6d75 (typo fixes)
@@ -2815,6 +2882,8 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -2918,6 +2987,7 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -2956,6 +3026,10 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -3108,6 +3182,9 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -3177,6 +3254,7 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Longitude is referenced to the Ferro meridian.  Replaces Modified Krovak south-orientated projection (code 5219) for GIS purposes.','EPSG','1043','Krovak Modified (North Orientated)','EPSG','8811','Latitude of projection centre',49.3,'EPSG','9110','EPSG','8833','Longitude of origin',42.3,'EPSG','9110','EPSG','1036','Co-latitude of cone axis',30.1717303,'EPSG','9110','EPSG','8818','Latitude of pseudo standard parallel',78.3,'EPSG','9110','EPSG','8819','Scale factor on pseudo standard parallel',0.9999,'EPSG','9201','EPSG','8806','False easting',5000000.0,'EPSG','9001','EPSG','8807','False northing',5000000.0,'EPSG','9001',0);
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3287,6 +3365,8 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3329,6 +3409,9 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -3433,11 +3516,14 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -3536,11 +3622,14 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -3655,11 +3744,14 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -3758,6 +3850,7 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Longitude is referenced to the Ferro meridian.  Replaces Modified Krovak south-orientated projection (code 5219) for GIS purposes.','EPSG','1043','Krovak Modified (North Orientated)','EPSG','8811','Latitude of projection centre',49.3,'EPSG','9110','EPSG','8833','Longitude of origin',42.3,'EPSG','9110','EPSG','1036','Co-latitude of cone axis',30.1717303,'EPSG','9110','EPSG','8818','Latitude of pseudo standard parallel',78.3,'EPSG','9110','EPSG','8819','Scale factor on pseudo standard parallel',0.9999,'EPSG','9201','EPSG','8806','False easting',5000000.0,'EPSG','9001','EPSG','8807','False northing',5000000.0,'EPSG','9001',0);
@@ -3767,6 +3860,8 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -3940,6 +4035,9 @@ INSERT INTO "conversion" VALUES('EPSG','5220','Modified Krovak East North','Long
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -5610,6 +5708,7 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5730,6 +5829,11 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 =======
 >>>>>>> locatelli-main
 =======
+>>>>>>> locatelli-main
+=======
+>>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> dbc4ff68b0 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
 >>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -5827,9 +5931,12 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -5945,6 +6052,9 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -6046,6 +6156,7 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6060,6 +6171,9 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
 =======
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -6189,11 +6303,14 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -6293,6 +6410,7 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -6301,6 +6419,8 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -6420,6 +6540,9 @@ INSERT INTO "usage" VALUES('EPSG','18487','conversion','EPSG','10148','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -6506,6 +6629,7 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6667,9 +6791,13 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 >>>>>>> 74eac2217b (typo fixes)
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6706,6 +6834,8 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -6816,6 +6946,9 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -6923,6 +7056,7 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -6961,6 +7095,10 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -7113,6 +7251,9 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -7180,6 +7321,7 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 =======
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7288,6 +7430,8 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7330,6 +7474,9 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -7432,11 +7579,14 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -7533,12 +7683,15 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -7648,11 +7801,14 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -7750,6 +7906,7 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 >>>>>>> 0a2f6458d1 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -7757,6 +7914,8 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -7913,6 +8072,9 @@ INSERT INTO "usage" VALUES('EPSG','18704','conversion','EPSG','10198','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -8030,6 +8192,7 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8150,6 +8313,11 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 =======
 >>>>>>> locatelli-main
 =======
+>>>>>>> locatelli-main
+=======
+>>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> dbc4ff68b0 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
 >>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -8247,9 +8415,12 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -8365,6 +8536,9 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -8466,6 +8640,7 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8480,6 +8655,9 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
 =======
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -8609,11 +8787,14 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -8713,6 +8894,7 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -8721,6 +8903,8 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -8840,6 +9024,9 @@ INSERT INTO "usage" VALUES('EPSG','11107','conversion','EPSG','10203','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -8924,6 +9111,7 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9085,9 +9273,13 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 >>>>>>> 74eac2217b (typo fixes)
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9124,6 +9316,8 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -9234,6 +9428,9 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -9341,6 +9538,7 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -9379,6 +9577,10 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -9531,6 +9733,9 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -9598,6 +9803,7 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 =======
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9706,6 +9912,8 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9748,6 +9956,9 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -9850,11 +10061,14 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -9951,12 +10165,15 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -10066,11 +10283,14 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -10168,6 +10388,7 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 >>>>>>> 0a2f6458d1 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -10175,6 +10396,8 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -10331,6 +10554,9 @@ INSERT INTO "usage" VALUES('EPSG','18743','conversion','EPSG','10226','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -10448,6 +10674,7 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10568,6 +10795,11 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 =======
 >>>>>>> locatelli-main
 =======
+>>>>>>> locatelli-main
+=======
+>>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> dbc4ff68b0 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
 >>>>>>> 885e4882b8 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -10665,9 +10897,12 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -10783,6 +11018,9 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -10884,6 +11122,7 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10898,6 +11137,9 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
 =======
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -11027,11 +11269,14 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -11131,6 +11376,7 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -11139,6 +11385,8 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -11258,6 +11506,9 @@ INSERT INTO "usage" VALUES('EPSG','11110','conversion','EPSG','10233','EPSG','21
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -11344,6 +11595,7 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11505,9 +11757,13 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 >>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
 =======
+>>>>>>> 25ac262782 (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 >>>>>>> 74eac2217b (typo fixes)
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11544,6 +11800,8 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -11654,6 +11912,9 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -11761,6 +12022,7 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -11799,6 +12061,10 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -11951,6 +12217,9 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -12018,6 +12287,7 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 =======
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12126,6 +12396,8 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12168,6 +12440,9 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -12270,11 +12545,14 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -12371,12 +12649,15 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -12486,11 +12767,14 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -12588,6 +12872,7 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 >>>>>>> 0a2f6458d1 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -12595,6 +12880,8 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -12751,6 +13038,9 @@ INSERT INTO "usage" VALUES('EPSG','19186','conversion','EPSG','10279','EPSG','46
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -16122,6 +16412,7 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16182,6 +16473,8 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 >>>>>>> locatelli-main
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -16242,6 +16535,9 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -16343,6 +16639,7 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -16351,6 +16648,8 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 <<<<<<< HEAD
 =======
 >>>>>>> ebd1587dc5 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -16466,6 +16765,9 @@ INSERT INTO "usage" VALUES('EPSG','13034','conversion','EPSG','19956','EPSG','13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -16566,6 +16868,7 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -16575,6 +16878,10 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
@@ -16741,6 +17048,7 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Borneo Grid (feet)','See 19956 and 19958 for chains and metres versions. If using Hotine Oblique Mercator (variant A) method (code 9812) FE = FN = 0 ftSe. Being replaced by metric version (code 19958).','EPSG','9815','Hotine Oblique Mercator (variant B)','EPSG','8811','Latitude of projection centre',4.0,'EPSG','9110','EPSG','8812','Longitude of projection centre',115.0,'EPSG','9110','EPSG','8813','Azimuth of initial line',53.18569537,'EPSG','9110','EPSG','8814','Angle from Rectified to Skew Grid',53.07483685,'EPSG','9110','EPSG','8815','Scale factor on initial line',0.99984,'EPSG','9201','EPSG','8816','Easting at projection centre',1937263.44,'EPSG','9041','EPSG','8817','Northing at projection centre',1452947.58,'EPSG','9041',0);
 >>>>>>> e4a6fd6d75 (typo fixes)
@@ -16748,6 +17056,8 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -16851,6 +17161,7 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -16889,6 +17200,10 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -17041,6 +17356,9 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -17110,6 +17428,7 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Borneo Grid (feet)','See 19956 and 19958 for chains and metres versions. If using Hotine Oblique Mercator (variant A) method (code 9812) FE = FN = 0 ftSe.  Being replaced by metric version (code 19958).','EPSG','9815','Hotine Oblique Mercator (variant B)','EPSG','8811','Latitude of projection centre',4.0,'EPSG','9110','EPSG','8812','Longitude of projection centre',115.0,'EPSG','9110','EPSG','8813','Azimuth of initial line',53.18569537,'EPSG','9110','EPSG','8814','Angle from Rectified to Skew Grid',53.07483685,'EPSG','9110','EPSG','8815','Scale factor on initial line',0.99984,'EPSG','9201','EPSG','8816','Easting at projection centre',1937263.44,'EPSG','9041','EPSG','8817','Northing at projection centre',1452947.58,'EPSG','9041',0);
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17220,6 +17539,8 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17262,6 +17583,9 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -17366,11 +17690,14 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -17469,11 +17796,14 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -17588,11 +17918,14 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -17691,6 +18024,7 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Borneo Grid (feet)','See 19956 and 19958 for chains and metres versions. If using Hotine Oblique Mercator (variant A) method (code 9812) FE = FN = 0 ftSe.  Being replaced by metric version (code 19958).','EPSG','9815','Hotine Oblique Mercator (variant B)','EPSG','8811','Latitude of projection centre',4.0,'EPSG','9110','EPSG','8812','Longitude of projection centre',115.0,'EPSG','9110','EPSG','8813','Azimuth of initial line',53.18569537,'EPSG','9110','EPSG','8814','Angle from Rectified to Skew Grid',53.07483685,'EPSG','9110','EPSG','8815','Scale factor on initial line',0.99984,'EPSG','9201','EPSG','8816','Easting at projection centre',1937263.44,'EPSG','9041','EPSG','8817','Northing at projection centre',1452947.58,'EPSG','9041',0);
@@ -17700,6 +18034,8 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -17873,6 +18209,9 @@ INSERT INTO "conversion" VALUES('EPSG','19957','Rectified Skew Orthomorphic Born
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -17989,6 +18328,7 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18049,6 +18389,8 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 >>>>>>> locatelli-main
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -18109,6 +18451,9 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -18210,6 +18555,7 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
@@ -18218,6 +18564,8 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 <<<<<<< HEAD
 =======
 >>>>>>> ebd1587dc5 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -18333,6 +18681,9 @@ INSERT INTO "usage" VALUES('EPSG','13037','conversion','EPSG','19959','EPSG','11
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -18433,6 +18784,7 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
@@ -18442,6 +18794,10 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> 360db021b6 (Merge pull request #3524 from cffk/merid-update-fix)
 =======
@@ -18608,6 +18964,7 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic (NAD83)','False Easting and False Northing changed from values used with ATS77 (which were FE=700000m; FN=400000m) to these new values when used with NAD83 (CSRS). New values are FE=400000m; FN=800000m; adopted in 2000.','EPSG','9809','Oblique Stereographic','EPSG','8801','Latitude of natural origin',47.15,'EPSG','9110','EPSG','8802','Longitude of natural origin',-63.0,'EPSG','9110','EPSG','8805','Scale factor at natural origin',0.999912,'EPSG','9201','EPSG','8806','False easting',400000.0,'EPSG','9001','EPSG','8807','False northing',800000.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0);
 >>>>>>> e4a6fd6d75 (typo fixes)
@@ -18615,6 +18972,8 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 =======
 >>>>>>> locationtech-main
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -18718,6 +19077,7 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa21c6fa76 (typo fixes)
 =======
 >>>>>>> location-main
@@ -18756,6 +19116,10 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
+>>>>>>> locatelli-main
+=======
 =======
 >>>>>>> c8fb3456cf (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> locatelli-main
@@ -18908,6 +19272,9 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -18977,6 +19344,7 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic (NAD83)','False Easting and False Northing changed from values used with ATS77 (which were FE=700000m; FN=400000m) to these new values when used with NAD83 (CSRS).  New values are FE=400000m; FN=800000m; adopted in 2000.','EPSG','9809','Oblique Stereographic','EPSG','8801','Latitude of natural origin',47.15,'EPSG','9110','EPSG','8802','Longitude of natural origin',-63.0,'EPSG','9110','EPSG','8805','Scale factor at natural origin',0.999912,'EPSG','9201','EPSG','8806','False easting',400000.0,'EPSG','9001','EPSG','8807','False northing',800000.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0);
 >>>>>>> 360db021b (Merge pull request #3524 from cffk/merid-update-fix)
 >>>>>>> 3771d4aec1 (Merge pull request #3524 from cffk/merid-update-fix)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19087,6 +19455,8 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
+=======
+>>>>>>> locatelli-main
 >>>>>>> b5f4d47b2b (Merge pull request #3524 from cffk/merid-update-fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19129,6 +19499,9 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
@@ -19233,11 +19606,14 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -19336,11 +19712,14 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -19455,11 +19834,14 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
 <<<<<<< HEAD
 >>>>>>> locatelli-main
 =======
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -19558,6 +19940,7 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> locationtech-main
 =======
 INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic (NAD83)','False Easting and False Northing changed from values used with ATS77 (which were FE=700000m; FN=400000m) to these new values when used with NAD83 (CSRS).  New values are FE=400000m; FN=800000m; adopted in 2000.','EPSG','9809','Oblique Stereographic','EPSG','8801','Latitude of natural origin',47.15,'EPSG','9110','EPSG','8802','Longitude of natural origin',-63.0,'EPSG','9110','EPSG','8805','Scale factor at natural origin',0.999912,'EPSG','9201','EPSG','8806','False easting',400000.0,'EPSG','9001','EPSG','8807','False northing',800000.0,'EPSG','9001',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0);
@@ -19567,6 +19950,8 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 >>>>>>> locationtech-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
 =======
@@ -19740,6 +20125,9 @@ INSERT INTO "conversion" VALUES('EPSG','19960','Prince Edward Isl. Stereographic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> locatelli-main
+=======
 >>>>>>> locatelli-main
 =======
 >>>>>>> locatelli-main
